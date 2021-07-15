@@ -47,7 +47,7 @@ body {
 }
 
 .seat.selected {
-    background-color: #444451;
+    background-color: teal;
 }
 
 .seat.occupied {
@@ -99,8 +99,18 @@ body {
 
 .screen {
     background-color: #fff;
-    height: 80%;
+    height: 80px;
     width: 100%;
     margin: 15px 0;
+    transform: rotateX(-35deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 225, 0.9);
     
+}
+
+p.text {
+    margin: 5px 0;
+}
+
+p.text span {
+    color: rgb(0, 194, 194);
 }
